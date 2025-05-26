@@ -22,7 +22,7 @@ You can download the Spider and Bird databases separately and place their folder
 
 ## 🚀 Evaluation Metrics
 
-We use the following metrics to evaluate secure SQL detection methods:
+We use the following metrics to evaluate secure SQL detection methods, which are often used for binary classification tasks:
 
 - **Accuracy**:  
   The proportion of correctly predicted queries (both safe and unsafe) out of all queries.  
@@ -32,6 +32,13 @@ We use the following metrics to evaluate secure SQL detection methods:
 
 - **Specificity**:  
   The proportion of unsafe queries correctly identified as unsafe.  
+
+
+## 🎖️ Acknowledgements
+We gratefully acknowledge the following excellent works that inspired and contributed to this project:
+1. [Spider: A Large-Scale Human-Labeled Dataset for Complex and Cross-Domain Semantic Parsing and Text-to-SQL Task](https://aclanthology.org/D18-1425/)
+2. [Can LLM Already Serve as A Database Interface? A BIg Bench for Large-Scale Database Grounded Text-to-SQLs](https://openreview.net/forum?id=dI4wzAE6uV)
+
 
 ## 🧾 Citation
 
